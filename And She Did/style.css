@@ -1,3 +1,8 @@
-font-face {font-family: 'vintage'; src: url(../fonts/vintage.ttf)format('truetype');}
-
-.title {font-family:'vintage';}
+p { 
+	font-family: monospace;
+	}
+.title {
+	font-family:vintage;
+	color:red;
+	text-align: center;
+}

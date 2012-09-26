@@ -1,0 +1,158 @@
+body { background-color: white;
+		font-family: arial;
+		margin: 0;
+		padding: 0;}
+
+h1 { color: white;
+	font-size: 80px;}	
+
+p { color: gray;}	
+
+#container { background-color: white;
+		display: block;
+		margin: 20px 5% 100px 5%;
+		padding: 0;
+		line-height: 1.5em;
+		border-top: gray 1px dotted;}
+
+#container .image { margin: 1.5em auto;
+					display: block;
+					box-shadow: 0 5px 5px 5px gray;}	
+
+#container .image-inline { float: left;
+						width: 300px;
+						margin: 0 20px 20px 0;
+						box-shadow: 0 5px 5px 5px gray;}						
+
+#header { display: block; 
+		padding-left: 0;
+		background-image: url('chalkboard.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 150px;
+		margin: 0;
+		}		
+
+#header span { color: #FFCC66;}		
+
+#header h1 {padding-left: 5%;
+		position: absolute;
+		top: 23px;}						
+
+#nav { 	text-align: center;
+		font-family: arial;
+		display: block;
+		position: absolute;
+		top: 125px;
+		right: 0px;
+		margin: 0 5%;
+		clear: both;
+		padding: 0;
+		}
+
+#nav ul { list-style: none;
+		margin: 0;}
+	
+#nav li { text-align: right; 
+		display: inline;
+		margin: 15px;
+		padding: 5px 0 0 0;}
+
+#nav li a:link {color: white;
+		font: 20px bold;
+		text-decoration: none;}
+
+#nav li a:visited {color: white;
+		font: 20px bold;
+		text-decoration: none;}
+
+#nav li a:hover { color: #FFCC66;
+		font: 20px bold;
+		text-decoration: none;
+		border-top: 1px dotted white;
+		border-right: 1px dotted white;
+		border-left: 1px dotted white;
+		border-radius: 5px 5px 0 0;}		
+
+#sidebar { display: block;
+			float: right;
+			color: black;
+			height: 100%;
+			background-image: url('background.jpg');
+			width: 30%;
+			padding: 1em 10px 1em 20px;	
+			margin:20px 0 0 20px;
+			line-height: 2em;
+    		border-radius: 20px 20px 0 0;
+
+			}
+
+#sidebar .image { width: 90%;
+				box-shadow: 0 0 0 0;
+				margin: 0 4%;
+				border: white solid 3px;}
+
+#sidebar .caption { color: white;
+				font-style: italic;
+				line-height: 1.2em;	
+				margin: 0 4%;}				
+
+#sidebar h2 { color: white;}
+
+#sidebar p { color: black;}			
+
+#footer {display: block; 
+		background-image: url('chalkboard.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding-left: 10%;
+		margin: 0;}
+
+#fixedbar { background:white;
+			text-align: right;
+			vertical-align: center;
+			display: block;
+			position: fixed;
+			bottom: 0px;
+			left: 5%;
+			border-radius: 5px 5px 0 0;
+			padding: 3px 5px;
+			box-shadow: 0 -3px 5px 5px gray;}
+
+#fixedbar .image { padding: 0 10px;}			
+
+/*
+
+#columnleft { float:left;
+				width:600px;
+				margin:0;
+				display: block;}
+
+#columnright { float:right;
+				width: 200px;
+				margin: 0;
+				display: block;}
+
+#footer { clear: both;
+		display: block;
+		background-color: blue;}
+
+#nav li A:link { font-family: arial;
+				color: rgb(101,128,84);
+				text-decoration: none;}
+#nav li	A:visited { font-family: arial;
+				color: green;}
+#nav li A:active { font-family: arial;
+				color: orange;}
+#nav li A:hover { font-family: arial; 
+				color: gray;
+				text-decoration: none;}
+
+
+#facbook { background-color: white;
+			width: 50px;
+			position: fixed;
+			margin-left: 0;
+			margin-top: 30px;
+			z-index: 5;}	
+*/						
