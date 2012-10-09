@@ -55,7 +55,7 @@ p { color: gray;}
 	
 #nav li { text-align: right; 
 		display: inline;
-		margin: 15px;
+		margin: 10px;
 		padding: 5px 0 0 0;}
 
 #nav li a:link {color: white;
@@ -120,7 +120,21 @@ p { color: gray;}
 			box-shadow: 0 -3px 5px 5px gray;}
 
 #fixedbar .image { padding: 0 10px;}
-		
+
+#dot {display: block;
+	font-family: cursive;
+	text-align: center;
+	float: right;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	color: white;
+	border: red 1px dotted;
+	background-image: url('images/frozen-lake.jpg');
+	background-size: 100px;}
+	
+#dot p { color: yellow;}
+
 /*
 
 #columnleft { float:left;
